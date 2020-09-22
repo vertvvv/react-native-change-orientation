@@ -6,7 +6,10 @@ export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    ChangeOrientation.multiply(3, 7).then(setResult);
+    ChangeOrientation.multiply(6, 7).then(setResult);
+    console.log(ChangeOrientation);
+    ChangeOrientation.setLandscape();
+    // ChangeOrientation.setPortrait();
   }, []);
 
   return (

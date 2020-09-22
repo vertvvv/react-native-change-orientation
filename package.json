@@ -34,7 +34,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/vertvvv/react-native-change-orientation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vertvvv/react-native-change-orientation.git"
+  },
   "author": "Ilya Trokhin <vertvvv@gmail.com> (https://github.com/vertvvv)",
   "license": "MIT",
   "bugs": {
